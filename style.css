@@ -1,0 +1,12 @@
+#table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  repeat(4, 1fr);
+    width: 400px;
+}
+
+#table div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
